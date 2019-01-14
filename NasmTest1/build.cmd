@@ -1,7 +1,7 @@
 del a.exe
 del hello.obj
 
-.\nasm\nasm -fwin32 hello.asm
+.\nasm\nasm -f win32 hello.asm
 
 gcc hello.obj
 
